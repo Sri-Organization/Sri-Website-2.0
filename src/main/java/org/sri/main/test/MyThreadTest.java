@@ -26,7 +26,7 @@ public class MyThreadTest {
 		} catch (InterruptedException e) {
 			System.out.println("InterruptedException caught");
 		}
-		System.out.println("Low-priority thread: " + lo.click);
+		System.out.println("Low-priority thread 2: " + lo.click);
 		System.out.println("High-priority thread: " + hi.click);
 		
 		
