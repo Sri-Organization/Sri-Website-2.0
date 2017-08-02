@@ -5,7 +5,7 @@ import org.sri.util.Bar;
 public class ExceptionTest {
 	
 	static void throwOne() throws Throwable {
-		System.out.println("Inside throwOne.");
+		System.out.println("Inside throwOne.1");
 		
 		Exception e = new IllegalAccessException("demo");
 		e.initCause(new ArithmeticException());	
